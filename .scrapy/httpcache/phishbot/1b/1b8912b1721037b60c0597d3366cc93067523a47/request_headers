@@ -1,0 +1,5 @@
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en
+User-Agent: phishbot (https://example.com)
+Accept-Encoding: gzip, deflate
+Cookie: __cfduid=d0c44b6590e74e674530fbf4c5d9d26661589122582

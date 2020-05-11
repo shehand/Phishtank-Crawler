@@ -1,0 +1,11 @@
+Date: Sun, 10 May 2020 14:56:52 GMT
+Content-Type: text/html; charset=UTF-8
+Retry-After: 477
+Cache-Control: no-cache
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=15552000
+Server: cloudflare
+Cf-Ray: 59148264fa8dc039-MRS
+Alt-Svc: h3-27=":443"; ma=86400, h3-25=":443"; ma=86400, h3-24=":443"; ma=86400, h3-23=":443"; ma=86400
+Cf-Request-Id: 02a0afd3170000c0394a291200000001

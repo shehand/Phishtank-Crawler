@@ -1,0 +1,15 @@
+Date: Sun, 10 May 2020 14:56:22 GMT
+Content-Type: text/plain
+Set-Cookie: __cfduid=d0c44b6590e74e674530fbf4c5d9d26661589122582; expires=Tue, 09-Jun-20 14:56:22 GMT; path=/; domain=.phishtank.com; HttpOnly; SameSite=Lax; Secure
+Cf-Bgj: h2pri
+Etag: W/"cd-5789ae9b80040-gzip"
+Last-Modified: Fri, 19 Oct 2018 20:40:25 GMT
+Vary: Accept-Encoding
+Cf-Cache-Status: EXPIRED
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Strict-Transport-Security: max-age=15552000
+Server: cloudflare
+Cf-Ray: 591481adff27e930-MRS
+Content-Encoding: gzip
+Alt-Svc: h3-27=":443"; ma=86400, h3-25=":443"; ma=86400, h3-24=":443"; ma=86400, h3-23=":443"; ma=86400
+Cf-Request-Id: 02a0af60b70000e9305c823200000001
