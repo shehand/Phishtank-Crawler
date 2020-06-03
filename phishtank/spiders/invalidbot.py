@@ -2,16 +2,16 @@
 import scrapy
 
 
-class NewbotSpider(scrapy.Spider):
-    name = 'newbot'
+class InvalidbotSpider(scrapy.Spider):
+    name = 'invalidbot'
     allowed_domains = ['https://www.phishtank.com/']
-    start_urls = ['https://www.phishtank.com/phish_archive.php?page='+ str(id) for id in range(50,1000)]
+    start_urls = ['https://www.phishtank.com/phish_search.php?page=%s&active=n&valid=y&Search=Search'% str(id) for id in range(17034,100000)]
 
     def parse(self, response):
         get_entered_date = response.css("table").css("tr").css("td:nth-child(2)").css("span::text").extract()
         phish_id = response.css("table").css("tr").css("td:nth-child(1)").css("a::text").extract()
         submitter = response.css("table").css("tr").css("td:nth-child(3)").css("a::text").extract()
-        validity = response.css("table").css("tr").css("td:nth-child(4)").extract()
+        validity = response.css("table").css("tr").css("td:nth-child(4)").css("strong::text").extract()
         online = response.css("table").css("tr").css("td:nth-child(5)").extract()
         
         for i in range(0, len(phish_id)-1):
