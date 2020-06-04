@@ -5,7 +5,7 @@ import scrapy
 class InvalidbotSpider(scrapy.Spider):
     name = 'invalidbot'
     allowed_domains = ['https://www.phishtank.com/']
-    start_urls = ['https://www.phishtank.com/phish_search.php?page=%s&active=n&valid=y&Search=Search'% str(id) for id in range(17034,100000)]
+    start_urls = ['https://www.phishtank.com/phish_search.php?page=%s&active=n&valid=y&Search=Search'% str(id) for id in range(18741,100000)]
 
     def parse(self, response):
         get_entered_date = response.css("table").css("tr").css("td:nth-child(2)").css("span::text").extract()
